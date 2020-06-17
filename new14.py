@@ -234,7 +234,7 @@ class MyWindow(QDialog, form_class):
        data2.rename(columns={' PFT':'PFT'},inplace=True)	   
        data2.rename(columns={' Meter ID':'MeterID'},inplace=True)
        data2.rename(columns={' Received Time':'CTime'},inplace=True)          
-
+#rrrr
        data2['APT1']=pd.to_numeric(data2['APT1'],errors='coerce') #쓰레기값 여부 확인을 위해 datatype 변경
        data2['APT2']=pd.to_numeric(data2['APT2'],errors='coerce')
        data2['RPT']=pd.to_numeric(data2['RPT'],errors='coerce')
