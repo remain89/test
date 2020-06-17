@@ -21,6 +21,7 @@ class MyWindow(QDialog, form_class):
        self.radioButton.clicked.connect(self.meterbtn1)
        self.radioButton_2.clicked.connect(self.meterbtn2)
        self.radioButton_3.clicked.connect(self.meterbtn3)
+#raweraser
 	   
    def vacheck(value,series,count): #Series 인자로 받은 후 이상치값 분석, 해당함수를 n번 돌려야함 부하가 클것으로 예상
        anum=count/4
